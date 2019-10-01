@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.¨
+ * and open the template in the editor.
  */
 package Online2;
 /**
@@ -13,27 +13,24 @@ import java.util.*;
  *
  * @author Ángel Miguel Cubino Aragón
  * @version 1.0
- * Clase en la que se calcula el paso de pulgadas a centimetros.
- * Una pulgada es el equivalente a 2,54 cm.
+ * Clase en la que se comprueba si un número es negativo.
  */
-public class Ejercicio1 {
+public class Ejercicio4 {
 
     /**
      * Método principal de la clase.
-     * @param args the command line arguments. 
+     * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Introduzca el número de pulgadas que desea convertir:");
+        System.out.println("Introduce un número: ");
+        double n = teclado.nextDouble();
         
-        double pulg=teclado.nextDouble();
-        
-        System.out.print(pulg + " pulgadas son ");
-        System.out.printf("%1.2f",pulg*2.54);
-        System.out.println(" centimetros.");
+        if (n<0){
+            System.out.println("El número introducido es negativo.");
+        }
     }
     
 }
