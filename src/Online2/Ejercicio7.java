@@ -13,8 +13,8 @@ import java.util.*;
 /**
  *
  * @author Ángel Miguel Cubino Aragón
- * @version 1.0 Clase en la que se calcula multiples divisiones a partir del
- * dividendo 100, hasta que el usuario introduzca un 0.
+ * @version 1.0 
+ * Clase en la que se calcula multiples divisiones a partir del dividendo 100, hasta que el usuario introduzca un 0.
  */
 public class Ejercicio7 {
 

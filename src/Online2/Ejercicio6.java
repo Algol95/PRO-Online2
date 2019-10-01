@@ -13,7 +13,8 @@ import java.util.*;
 /**
  *
  * @author Ángel Miguel Cubino Aragón
- * @version 1.0 Clase que da a elegir entre la resta o la suma de dos números.
+ * @version 1.0 
+ * Clase que da a elegir entre la resta o la suma de dos números.
  */
 public class Ejercicio6 {
 
