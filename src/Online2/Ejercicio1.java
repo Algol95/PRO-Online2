@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicio1;
+package Online2;
+import java.util.*;
 
 /**
  *
@@ -17,6 +18,14 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Introduzca el número de pulgadas que desea convertir");
+        
+        int pulg=teclado.nextInt();
+        
+        System.out.println(pulg + " pulgadas son " + pulg*2.54 + " centimetros.");
     }
     
 }
