@@ -20,10 +20,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        short n=0;
-        
-        while (n!=100) {
-            n++;
+        for (short n = 1; n<=100; n++) {
             System.out.println(n);
         }
     }
