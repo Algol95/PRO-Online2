@@ -9,10 +9,11 @@ package Online2;
  */
 import java.util.*;
 /**
- *
+ * Clase en la que se calcula la suma, resta, multiplicación y división de dos números.
+ * 
  * @author Ángel Miguel Cubino Aragón
  * @version 1.0
- * Clase en la que se calcula la suma, resta, multiplicación y división de dos números.
+ * 
  */
 public class Ejercicio2 {
     /**

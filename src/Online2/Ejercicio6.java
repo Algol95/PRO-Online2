@@ -11,15 +11,17 @@ package Online2;
 import java.util.*;
 
 /**
+ * Clase que da a elegir entre la resta o la suma de dos números.
  *
  * @author Ángel Miguel Cubino Aragón
- * @version 1.0 
- * Clase que da a elegir entre la resta o la suma de dos números.
+ * @version 1.0
+ *
  */
 public class Ejercicio6 {
 
     /**
      * Método principal de la clase.
+     *
      * @param args the command line arguments
      */
     public static void main(String[] args) {

@@ -11,15 +11,18 @@ package Online2;
 import java.util.*;
 
 /**
+ * Clase en la que se calcula multiples divisiones a partir del dividendo 100,
+ * hasta que el usuario introduzca un 0.
  *
  * @author Ángel Miguel Cubino Aragón
- * @version 1.0 
- * Clase en la que se calcula multiples divisiones a partir del dividendo 100, hasta que el usuario introduzca un 0.
+ * @version 1.0
+ *
  */
 public class Ejercicio7 {
 
     /**
      * Método principal de la clase.
+     *
      * @param args the command line arguments
      */
     public static void main(String[] args) {
